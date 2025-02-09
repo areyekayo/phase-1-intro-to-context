@@ -91,7 +91,7 @@ describe("The payroll system", function () {
     })
 
     describe("createTimeInEvent", function () {
-      let bpRecord, updatedBpRecord, newEvent
+      let bpRecord, updatedBpRecord, newEvent;
 
       it("creates the correct type", function () {
         let bpRecord = createEmployeeRecord(["Byron", "Poodle", "Mascot", 3])
